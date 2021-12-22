@@ -1,6 +1,6 @@
 'use strict'
 
-let a = false;
+/*let a = false;
 const b = true;
 
 if (b) a = true;
@@ -54,4 +54,29 @@ function checkWinner(avgDolphins, avgKoalas) {
     } else return `No one won the game 😒`;
 }
 
-console.log(checkWinner(avgDolphins, avgKoalas));
+console.log(checkWinner(avgDolphins, avgKoalas));*/
+
+/*const user = {
+    firstName: 'John',
+    lastName: 'Christian',
+    isAdult: true,
+    birthYear: 1998,
+    // calcAge: function (birthYear) {
+    //     return 2021 - birthYear;
+    // },
+    // calcAge: function () {
+    //     return 2021 - this.birthYear;
+    // },
+    calcAge: function () {
+        this.age = 2021-this.birthYear;
+        return this.age;
+    },
+
+    calcProjects: years => years * 4,
+}
+
+// console.log(user.calcAge(1998));
+console.log(user.calcAge());
+console.log(user.age);
+console.log(user.calcProjects(3));
+console.log(user['calcProjects'](6));*/
